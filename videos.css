@@ -60,11 +60,16 @@ a:visited {
 	color: grey;
 }
 
-#pictures {
-	border-width: 3px;
-	border-style: solid;
-	border-color: #0F1626;
-	position: absolute;
+#canvas {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 650px;
+  width: 650px;
+  border: 2px solid black;
 }
 
 #sideNav a {
@@ -101,10 +106,4 @@ a:visited {
 #about {
   top: 300px;
   background-color: #4CAF50;
-}
-
-.center {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
 }
