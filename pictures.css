@@ -62,15 +62,14 @@ a:visited {
 
 /*#canvas {
   position: absolute;
-  top: 0;
+  top: 600;
   bottom: 0;
   left: 0;
   right: 0;
-  margin: auto;
+	margin: auto;
   height: 650px;
   width: 650px;
-  border: 2px solid black;
-}*/
+  border: 2px solid black;*/
 
 #sideNav a {
   position: absolute; /* Position them relative to the browser window */
