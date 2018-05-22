@@ -69,7 +69,8 @@ a:visited {
 	margin: auto;
   height: 650px;
   width: 650px;
-  border: 2px solid black;*/
+  border: 2px solid black;
+}*/
 
 #sideNav a {
   position: absolute; /* Position them relative to the browser window */

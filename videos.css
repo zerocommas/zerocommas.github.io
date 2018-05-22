@@ -96,3 +96,15 @@ a:visited {
   top: 300px;
   background-color: grey;
 }
+
+canvas {
+  position: absolute;
+  top: 120px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+	margin: auto;
+  height: 700px;
+  width: 700px;
+  border: 3px solid black;
+}
