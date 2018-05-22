@@ -97,8 +97,60 @@ a:visited {
   background-color: grey;
 }
 
-.center {
-	display: block;
-	margin-left: auto;
+#botNav a {
+	position: absolute; /* Position them relative to the browser window */
+  bottom: 10px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 15px; /* 15px padding */
+  width: 30px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Increase font size */
+  color: white; /* White text color */
+  border-radius: 5px 5px 5px 5px; /* Rounded corners on the top right and bottom right side */
+}
+
+#botNav a:hover {
+
+}
+
+#twitter {
+	bottom: 50px;
+	left: 20px;
+}
+
+#soundcloud {
+	bottom: 50px;
+	left: 90px;
+}
+
+p {
+	width: 600px;
+	height: 600px;
+	border: 3px solid #000000;
+	padding: 25px;
 	margin-right: auto;
+	margin-left: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-soundcloud {
+	background: #FF7700;
+	color: white;
 }
